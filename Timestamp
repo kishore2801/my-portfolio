@@ -1,0 +1,43 @@
+00:00 - Project overview & Intro
+9:00 - Designing In Figma
+56:25 - Coding the Template
+2:29:00 - Adding Django Backend
+3:48:00 - Adding CRUD Operations
+4:13:00 - Adding Rich Text Editor
+4:44:00 - Adding Messages
+5:13:00 - Room Tour
+5:41:40 - Pushing Project Live
+6:31:20 - Adding Scroll Sidebar
+6:48:15 - Adding Skills
+7:15:50 - Adding Endorsements Section
+9:18:50 - Adding "Buy Me a Coffee" Button
+10:08:25- Adding Charts & Voting
+11:28:30 - Final Stretch Q&A
+
+Check About me wraper
+
+
+
+
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .20em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite ;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to {width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    20%{ border-color: white; }
+  }
+ 
